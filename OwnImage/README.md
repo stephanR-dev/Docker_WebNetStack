@@ -28,7 +28,7 @@ OwnImage/
 *bash/ zsh*
 
 docker build -t flaskimg .
-docker run -d -p 8080:8000 flaskimg
+docker run --name /yourName/ -d -p 8080:8000 flaskimg
 curl http://localhost:8080
 
 ```
